@@ -71,7 +71,11 @@ class _HomeState extends State<Home> {
               Container(
                 height: 250,
                 margin: const EdgeInsets.all(20),
-                child:const Text( 'here is image') ,
+                child:Image.network('https://media.istockphoto.com/photos/vaccination-record-card-for-covid19-with-vials-and-syringe-hand-in-picture-id1289491114'
+            ,
+                height: 320,
+                  width: 320,
+                ) ,
               ),
               TextField(
                 controller: pincode_controller,
