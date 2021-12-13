@@ -67,7 +67,7 @@ class _SlotState extends State<Slot> {
                     style: const TextStyle(
                       fontSize:18,
                       color: Colors.white,
-                      // fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.bold,
                     ),
                   )
                 ],
