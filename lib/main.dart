@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
     fetchSlots()async{
       await http.get(Uri.parse('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode='
           + pincode_controller.text+'&date='
-          +daycontroller.text+'%2F' + dropdownValue+'%2F2021')).then((value)
+          +daycontroller.text+'%2F' + dropdownValue+'%2F2022')).then((value)
       {
         Map result = jsonDecode(value.body);
         setState(() {
